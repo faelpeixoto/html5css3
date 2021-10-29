@@ -3,6 +3,24 @@ Folha de estilo do site on page HTML5 E CSS3
 @autor rafael peixoto
 rafaelpeixoto.com.br
 */
+/* CSS Reset */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* Importação (Google fonts) */
+@import url('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 400; 700 & display = swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+/* Layout */
+.Container {
+    margin: 0 auto;
+    background-color: #7f0;
+}
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>> */
 
@@ -12,7 +30,10 @@ rafaelpeixoto.com.br
         background-color: #00ffff;
 
     }
-
+/* Layout */
+.Container {
+    max-width: 540px;
+}
 }
 
 
@@ -22,6 +43,10 @@ rafaelpeixoto.com.br
         background-color: #ff0;
 
     }
+    /* Layout */
+.Container {
+    max-width: 720px;
+}
 
 }
 
@@ -33,6 +58,10 @@ rafaelpeixoto.com.br
         background-color: #ff0;
 
     }
+    /* Layout */
+.Container {
+    max-width: 960px;
+}
 
 }
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -41,5 +70,9 @@ rafaelpeixoto.com.br
         background-color: #f00;
 
     }
+    /* Layout */
+.Container {
+    max-width: 1140px;
+}
 
 }
